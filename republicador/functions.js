@@ -39,6 +39,9 @@ function completo(){
         $('h2').html("Projeto republicado");
         alert("pronto");
         document.querySelectorAll('.btn-opt')[2].style.display = "block";
+        
+        document.querySelectorAll('.btn-opt')[2].setAttribute('onclick', 'delold()')
+        document.querySelectorAll('.btn-opt')[2].setAttribute('value', 'Apagar Old')
         $('#loading').css('display', "none");
         
     });
