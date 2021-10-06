@@ -17,7 +17,8 @@
         <input type="button" value="Apenas Paginas" class="btn-opt" onclick="onlypage()" >
         <div id="loading" style="display: none;"><img src="gif.gif" alt=""></div>
         <input type="button" value="Paginas e imagens" class="btn-opt" onclick="pageandimg()" >
-        <input type="button" value="Apagar pasta old" class="btn-opt" onclick="delold()" >
+        <input type="button" value="Projeto Completo" class="btn-opt" onclick="completo()" >
+
      
 
         

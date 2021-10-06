@@ -10,7 +10,7 @@ class Publish{
     }
     function move_files(){
         shell_exec("cd site ; mkdir assets ; mv css mv js mv .htaccess mv font assets");
-        shell_exec("mv imagens imagens_old ; mv js mv css mv font mv .htaccess site");
+        shell_exec("mv imagens imagens_old ; mv republicador/republicador mv js mv css mv font mv .htaccess site");
         shell_exec("mv site ../ ; cd ../ ; mv public_html public_old ; mv site public_html ; mv public_old public_html ; cd public_html ; mv assets public_old");
     } 
 }
